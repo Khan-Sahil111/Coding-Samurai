@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8146e42ac47ffec249d9af083336c4ed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8146e42ac47ffec249d9af083336c4ed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8146e42ac47ffec249d9af083336c4ed = L.map(
+                "map_8146e42ac47ffec249d9af083336c4ed",
+                {
+                    center: [52.3667, 4.8945],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f922a338b728ccae80958f25dc541c67 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var marker_6e77c7abdf7676a28521d438b08d6a0c = L.marker(
+                [52.365078, 4.887378],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_1846d1ba6f8cac57ce123e9f6d08d08d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e77c7abdf7676a28521d438b08d6a0c.setIcon(icon_1846d1ba6f8cac57ce123e9f6d08d08d);
+        
+    
+        var popup_2ba6483a26ca5488e4b1ae3965cf4dee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dfe026e063540ff1ffb5de53c9e5a07 = $(`<div id="html_4dfe026e063540ff1ffb5de53c9e5a07" style="width: 100.0%; height: 100.0%;">Address: Keizersgracht 544, Amsterdam<br>Price: €5950K</div>`)[0];
+                popup_2ba6483a26ca5488e4b1ae3965cf4dee.setContent(html_4dfe026e063540ff1ffb5de53c9e5a07);
+            
+        
+
+        marker_6e77c7abdf7676a28521d438b08d6a0c.bindPopup(popup_2ba6483a26ca5488e4b1ae3965cf4dee)
+        ;
+
+        
+    
+    
+            var marker_cc7bb68b67f7ba76f869becb1eba3a79 = L.marker(
+                [52.354874, 4.863729],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_8e582c4c82afed1aadbc083207e0305f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc7bb68b67f7ba76f869becb1eba3a79.setIcon(icon_8e582c4c82afed1aadbc083207e0305f);
+        
+    
+        var popup_e7fa4c207211d2054e13408fa19a3813 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f5c06ae5ae81b19c5fb40e222eaa84c = $(`<div id="html_7f5c06ae5ae81b19c5fb40e222eaa84c" style="width: 100.0%; height: 100.0%;">Address: Oranje Nassaulaan 9, Amsterdam<br>Price: €5850K</div>`)[0];
+                popup_e7fa4c207211d2054e13408fa19a3813.setContent(html_7f5c06ae5ae81b19c5fb40e222eaa84c);
+            
+        
+
+        marker_cc7bb68b67f7ba76f869becb1eba3a79.bindPopup(popup_e7fa4c207211d2054e13408fa19a3813)
+        ;
+
+        
+    
+    
+            var marker_3754a2fd410e8e6d728f2aaba2bcac05 = L.marker(
+                [52.371039, 4.887869],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_0b650e390be82521a34e6767e004c4ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3754a2fd410e8e6d728f2aaba2bcac05.setIcon(icon_0b650e390be82521a34e6767e004c4ef);
+        
+    
+        var popup_b3659c6eb49a0c37d6f7002c920eee7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c24ba562202b1ce2c305c9b19a59d46c = $(`<div id="html_c24ba562202b1ce2c305c9b19a59d46c" style="width: 100.0%; height: 100.0%;">Address: Singel 318, Amsterdam<br>Price: €4900K</div>`)[0];
+                popup_b3659c6eb49a0c37d6f7002c920eee7c.setContent(html_c24ba562202b1ce2c305c9b19a59d46c);
+            
+        
+
+        marker_3754a2fd410e8e6d728f2aaba2bcac05.bindPopup(popup_b3659c6eb49a0c37d6f7002c920eee7c)
+        ;
+
+        
+    
+    
+            var marker_17586f690aa51db6a556d3094e415adb = L.marker(
+                [52.358798, 4.89862],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_77b1fd282639a55cdff21004d02cc156 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17586f690aa51db6a556d3094e415adb.setIcon(icon_77b1fd282639a55cdff21004d02cc156);
+        
+    
+        var popup_c26735d1cb3c524ad8fcf3573d2b564d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efdd39fb51f34367499b51927f1a643e = $(`<div id="html_efdd39fb51f34367499b51927f1a643e" style="width: 100.0%; height: 100.0%;">Address: Westeinde 16, Amsterdam<br>Price: €4550K</div>`)[0];
+                popup_c26735d1cb3c524ad8fcf3573d2b564d.setContent(html_efdd39fb51f34367499b51927f1a643e);
+            
+        
+
+        marker_17586f690aa51db6a556d3094e415adb.bindPopup(popup_c26735d1cb3c524ad8fcf3573d2b564d)
+        ;
+
+        
+    
+    
+            var marker_ac56e24370f2a31a5c65d770a6daa897 = L.marker(
+                [52.373106, 4.89429],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_fff4fa18e58132db6282128f2010d461 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac56e24370f2a31a5c65d770a6daa897.setIcon(icon_fff4fa18e58132db6282128f2010d461);
+        
+    
+        var popup_5098ada98c20e6052a07cbf2d2276f64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7f302c5d19d5226bc0b2f75895da3ff = $(`<div id="html_f7f302c5d19d5226bc0b2f75895da3ff" style="width: 100.0%; height: 100.0%;">Address: Dam 5 V, Amsterdam<br>Price: €4495K</div>`)[0];
+                popup_5098ada98c20e6052a07cbf2d2276f64.setContent(html_f7f302c5d19d5226bc0b2f75895da3ff);
+            
+        
+
+        marker_ac56e24370f2a31a5c65d770a6daa897.bindPopup(popup_5098ada98c20e6052a07cbf2d2276f64)
+        ;
+
+        
+    
+    
+            var marker_07e0986da8ebd7dfc0b91465c15a22eb = L.marker(
+                [52.361571, 4.875471],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_fd878ce2305028fc47e9b10f521cfacd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07e0986da8ebd7dfc0b91465c15a22eb.setIcon(icon_fd878ce2305028fc47e9b10f521cfacd);
+        
+    
+        var popup_4c6e755b55175b6bdcfafc64dcbe0863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbd195a048d6915420a3b11d6ed54ccd = $(`<div id="html_fbd195a048d6915420a3b11d6ed54ccd" style="width: 100.0%; height: 100.0%;">Address: Vondelstraat 51 hs, Amsterdam<br>Price: €3925K</div>`)[0];
+                popup_4c6e755b55175b6bdcfafc64dcbe0863.setContent(html_fbd195a048d6915420a3b11d6ed54ccd);
+            
+        
+
+        marker_07e0986da8ebd7dfc0b91465c15a22eb.bindPopup(popup_4c6e755b55175b6bdcfafc64dcbe0863)
+        ;
+
+        
+    
+    
+            var marker_0d902e122309430dabd977da63e9d472 = L.marker(
+                [52.385321, 4.905695],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_f94496aa35d0554ff3e0f9a9f467f79f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d902e122309430dabd977da63e9d472.setIcon(icon_f94496aa35d0554ff3e0f9a9f467f79f);
+        
+    
+        var popup_1fb6805f454e233111d8f4ecca714809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a02905a072e0249e21ef8a5e1e7a884 = $(`<div id="html_4a02905a072e0249e21ef8a5e1e7a884" style="width: 100.0%; height: 100.0%;">Address: Badhuiskade 353, Amsterdam<br>Price: €3680K</div>`)[0];
+                popup_1fb6805f454e233111d8f4ecca714809.setContent(html_4a02905a072e0249e21ef8a5e1e7a884);
+            
+        
+
+        marker_0d902e122309430dabd977da63e9d472.bindPopup(popup_1fb6805f454e233111d8f4ecca714809)
+        ;
+
+        
+    
+    
+            var marker_d8e50582fcf8133907d5b8982d491d49 = L.marker(
+                [52.352366, 4.857608],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_9ecfcdb245910cdd0b07a277d987509d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8e50582fcf8133907d5b8982d491d49.setIcon(icon_9ecfcdb245910cdd0b07a277d987509d);
+        
+    
+        var popup_5158898cdd1e81bbde244e31db6f29b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c5c8a75943e82995ae66f8016687621 = $(`<div id="html_0c5c8a75943e82995ae66f8016687621" style="width: 100.0%; height: 100.0%;">Address: Sophialaan 45, Amsterdam<br>Price: €3500K</div>`)[0];
+                popup_5158898cdd1e81bbde244e31db6f29b3.setContent(html_0c5c8a75943e82995ae66f8016687621);
+            
+        
+
+        marker_d8e50582fcf8133907d5b8982d491d49.bindPopup(popup_5158898cdd1e81bbde244e31db6f29b3)
+        ;
+
+        
+    
+    
+            var marker_2aed00f603091a7d300f8318f8088ce4 = L.marker(
+                [52.375532, 4.889816],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_c83c3e1920aa234cb1cbc620f9dc00ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2aed00f603091a7d300f8318f8088ce4.setIcon(icon_c83c3e1920aa234cb1cbc620f9dc00ae);
+        
+    
+        var popup_efdd4d466441dc0f18eb14fd07cfb1d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00182da980ed4107756ced8cac92eba2 = $(`<div id="html_00182da980ed4107756ced8cac92eba2" style="width: 100.0%; height: 100.0%;">Address: Singel 146 A, Amsterdam<br>Price: €3500K</div>`)[0];
+                popup_efdd4d466441dc0f18eb14fd07cfb1d7.setContent(html_00182da980ed4107756ced8cac92eba2);
+            
+        
+
+        marker_2aed00f603091a7d300f8318f8088ce4.bindPopup(popup_efdd4d466441dc0f18eb14fd07cfb1d7)
+        ;
+
+        
+    
+    
+            var marker_ec2d3ca709d7a946acb459a4ed76b837 = L.marker(
+                [52.349528, 4.862413],
+                {}
+            ).addTo(map_8146e42ac47ffec249d9af083336c4ed);
+        
+    
+            var icon_d0a39027656197a7b1a55c2ad817805a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec2d3ca709d7a946acb459a4ed76b837.setIcon(icon_d0a39027656197a7b1a55c2ad817805a);
+        
+    
+        var popup_0d1919978a63ccf0b15aa57da0adc89e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6ea7ee8fcf787810319a9f8eb207f82 = $(`<div id="html_c6ea7ee8fcf787810319a9f8eb207f82" style="width: 100.0%; height: 100.0%;">Address: Olympiakade 12, Amsterdam<br>Price: €2750K</div>`)[0];
+                popup_0d1919978a63ccf0b15aa57da0adc89e.setContent(html_c6ea7ee8fcf787810319a9f8eb207f82);
+            
+        
+
+        marker_ec2d3ca709d7a946acb459a4ed76b837.bindPopup(popup_0d1919978a63ccf0b15aa57da0adc89e)
+        ;
+
+        
+    
+</script>
+</html>
