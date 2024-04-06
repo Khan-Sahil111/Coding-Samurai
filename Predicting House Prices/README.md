@@ -40,6 +40,36 @@ To use this project, follow these steps:
 5. Open the Predicting House Prices.ipynb notebook and follow the instructions to train the model and make predictions.
 
 
+
+
+## Project Screenshots
+
+| Distribution of Rooms | Top 10 Addresses by price |
+| ------------- | ------------- |
+| <img src="https://raw.githubusercontent.com/Khan-Sahil111/Coding-Samurai/main/Predicting%20House%20Prices/1.PNG" alt="Screenshot 1" width="500"/> | <img src="https://raw.githubusercontent.com/Khan-Sahil111/Coding-Samurai/main/Predicting%20House%20Prices/2.PNG" alt="Screenshot 2" width="500"/> |
+
+  
+<table align="center">
+  <tr>
+    <td align="center">
+      <h2>Actual Vs Predicted Price</h2>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khan-Sahil111/Coding-Samurai/main/Predicting%20House%20Prices/3.PNG" alt="Screenshot 3" width="400"/>
+    </td>
+  </tr>
+</table>
+
+
+## Caution
+Maps are not being shown here so I'm going to add HTML files in my repository.
+
+- [Top 10 highest priced addresses](https://github.com/Khan-Sahil111/Coding-Samurai/blob/main/Predicting%20House%20Prices/top_10_highest_priced_addresses.html)
+
+
+
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
